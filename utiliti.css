@@ -1,0 +1,37 @@
+.flex{
+    display: flex;
+}
+.items-center {
+    align-items: center;
+   
+}
+.justify-center{
+    justify-content: center;
+
+}
+
+.space-between{
+    justify-content: space-between;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.semibold{
+    font-weight: bolder;
+}
+.mx-2{
+    margin-right: 12px;
+    margin-left: 12px;
+}
+.searchbar{
+    height: 43px;
+    width: 30vw;
+    padding: 7px 17px;
+    font-size: 23px;
+    border:none;
+    border-radius: 5px;
+    background: rgb(235, 231, 231);
+}
+.my-2{
+    margin:12px 0;
+}

@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap');
+html, body{
+    height: 100%;
+    width: 100%;
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
+}
+.left img{
+    width: 32px;
+    height: 23px;
+}
+header{
+    position: sticky;
+    top: 0;
+    background: white;
+    height: 88px;
+    box-shadow: rgba( 0,0, 0, 0.35) 0px 5px 15px;
+    
+}
+.rightBox{
+    display:flex;
+    margin:12px;
+}
+
+
+.container{
+    padding: 0 10vw;
+     
+}
+/* .containerHeader{
+    padding: 0 10vw;
+     
+} */
+nav{
+    font-size: 17px;
+    font-weight: bolder;
+    padding-top: 14px;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+nav ul li sup{
+    color:red;
+    font-weight:bolder;
+}
+.section1{
+    
+    background:gainsboro;
+
+}
+.profile{
+    text-align: center;
+}
+.homeImg{
+    width:75vw;
+    margin: 8px 40px;
+}
+.section2{
+    display:flex;
+}
+.png13 img{
+    width:100%;
+}
+footer{
+    padding:23px;
+    text-align:center;
+    box-shadow: (rgba( 0 0 0 / 24px)0px 3px 8px);
+}
+.row_poster:hover{
+    transform : scale(1.08);
+}
+/* .row_posters::-webkit-scrollbar{
+    display:none;
+} */
+.row_posterLarge{
+    max-height:350px;
+}
+
+.row_posterLarge:hover{
+    transform : scale(1.19);
+}
+/* 
+/* @media (max-width: 1550px) { 
+
+    nav ul li{
+        list-style: none;
+        padding: 0 4px;
+        font-size: 10px;
+    }
+    .containerHeader{
+        padding:0 2vw;
+    }
+    header{
+
+        height: 122px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .right{
+        flex-direction: column;
+       
+    }
+    .rightBox{
+        display:flex;
+        margin:12px;
+    }
+} */
